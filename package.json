@@ -1,0 +1,15 @@
+{
+  "name": "fastload",
+  "version": "0.0.1",
+  "description": "Single-tag performance loader for critical UI",
+  "main": "dist/fastload-0.0.1.js",
+  "scripts": {
+    "build": "terser src/fastload.js -o dist/fastload-0.0.1.min.js --compress --mangle && cp src/fastload.js dist/fastload-0.0.1.js"
+  },
+  "keywords": ["fastload", "performance", "lazyload", "web-performance"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "terser": "^5.31.0"
+  }
+}
